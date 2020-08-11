@@ -1,0 +1,20 @@
+# 安装第三方命令
+pip install flask
+
+#从指定的地址 国内源下载包
+pip install flask -i url
+
+# 卸载命令
+pip uninstall flask
+
+# 列出所有安装的库
+pip list
+
+#列出所有安装的库和版本
+pip freeze
+
+# 我们在本地安装的库，代码在服务器上运行的时候这样操作
+1. 首先把本地需要的库和版本写到一个文件中
+pip freeze > require.txt
+2. 在服务器运行命令安装require.txt中的库
+pip install -r require.txt
