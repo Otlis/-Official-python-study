@@ -14,7 +14,7 @@
 #     print(i)
 
 
-file5 = open('name.txt')
+file5 = open('name.txt', encoding='utf8')
 print(file5.tell())  # 意思是指针读取到哪了
 file5.read(1)
 print(file5.tell())
