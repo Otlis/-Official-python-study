@@ -1,3 +1,8 @@
+class Foo:
+    def __next__(self):
+        return 1
+
+
 class Stu(object):
     # 在slot中定义这个类可以存在的属性
     # 不可以动态增加slot中没有的属性
@@ -16,8 +21,14 @@ class Stu(object):
         print(args)
         print(kwargs['fn'])
 
+    # 只要重写了这个方法，这个类就是可以迭代的对象。
+    # 返回值必须是一个可以迭代的对象,并调用这个对象的next方法
+    def __iter__(self):
+        # return (1, 2, 3)
+        return Foo()
+
     def run(self):
-        print('正在跑步') 
+        print('正在跑步')
 
     @staticmethod
     def sleep():
