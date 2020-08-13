@@ -7,4 +7,11 @@ import os
 # a = open('name.txt', 'rb')
 a = open('name.txt')
 b = open('newfile.txt', 'w')
-b.write(a.read())
+while True:
+    content = a.read(1024)
+    b.write(content)
+    # if not content:  this equals if content is null
+    if not content:
+        break
+b.close()
+a.close()
