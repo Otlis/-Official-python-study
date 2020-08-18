@@ -12,7 +12,8 @@ from urllib.parse import quote
 利用狗狗搜索某个关键字，然后把结果保存到本地的文件中
 """
 
-
+# urlencode({"wd":"千峰"})
+# 'wd=%E5%8D%83%E5%B3%B0'
 def start_search(q):
     # 请求数据的格式
     url = 'https://www.dogedoge.com/results?q=%s'
