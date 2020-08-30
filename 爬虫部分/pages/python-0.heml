@@ -1,0 +1,632 @@
+	<!doctype html>
+	<html class="has-zcm no-touch opacity csstransforms3d csstransitions svg cssfilters is-not-mobile-device full-urls has-footer" itemscope="" itemtype="http://schema.org/SearchResultsPage" lang="zh-cn">
+	<head>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+	<meta http-equiv="content-type" content="text/html; charset=utf-8">
+	<title>python - Doge 搜索</title>
+	<link rel="stylesheet" href="/static/css/s1764.css" type="text/css">
+	<link rel="stylesheet" href="/static/css/r1763.css" type="text/css">
+	<meta name="robots" content="noindex,nofollow">
+	<meta name="apple-mobile-web-app-title" content="weather">
+	<link rel="shortcut icon" href="/assets/doge_ico.png" type="image/png">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="HandheldFriendly" content="true">
+	<meta name="apple-mobile-web-app-capable" content="no">
+	<link title="DogeDoge" type="application/opensearchdescription+xml" rel="search" href="/opensearch.xml">
+	<link href="/static/css/lato-open-sans.css" rel="stylesheet">
+	<script src="/static/js/jquery.min.js"></script>
+	<script src="/static/js/tuupola.lazyload.min.js"></script>
+	</head>
+	<body class="body--serp">
+	<div class="site-wrapper js-site-wrapper" style="min-height: 756px;">
+		<div id="header_wrapper" class="header-wrap b_class">
+			<div class="welcome-wrap js-welcome-wrap">
+			</div>
+			<div id="header" class="header cw">
+				<div class="header__search-wrap">
+					<a tabindex="-1" href="/" class="header__logo-wrap js-header-logo"><span class="header__logo js-logo-ddg">DogeDoge</span></a>
+					<div class="header__content header__search">
+						<form id="search_form" class="search--adv search--header js-search-form has-text" name="x" action="?" method="GET">
+							<input type="text" name="q" tabindex="1" autocomplete="off" id="search_form_input" class="search__input--adv js-search-input" value="python" autocapitalize="off" autocorrect="off">
+														<input id="search_button" class="search__button js-search-button" type="submit" tabindex="2" value="S">
+							<input id="search_form_input_clear" class="search__clear js-search-clear" type="button" tabindex="3" value="X">
+							<div id="search__autocomplete" class="search__autocomplete" style="position: absolute; display: none;"></div>
+						</form>
+					</div>
+				</div>
+				<div id="duckbar" class="zcm-wrap zcm-wrap--header is-noscript-hidden">
+					<div class="zcm">
+						<ul class="zcm__menu zcm__constant has-zci" id="duckbar_static">
+							<li class="zcm__item"><a data-zci-link="web" class="zcm__link js-zci-link js-zci-link--web is-active" href="javascript:;">Web</a></li>
+							<li class="zcm__item"><a data-zci-link="images" class="zcm__link js-zci-link js-zci-link--imagesis-hidden" href="javascript:javascript:alert('coming soon.');">图片</a></li>
+							<li class="zcm__item"><a data-zci-link="videos" class="zcm__link js-zci-link js-zci-link--videosis-hidden" href="javascript:javascript:alert('coming soon.');">视频</a></li>
+							<li class="zcm__item"><a data-zci-link="news" class="zcm__link js-zci-link js-zci-link--newsis-hidden" href="javascript:javascript:alert('coming soon.');">新闻</a></li>
+	                    </ul>
+						<ul class="zcm__menu zcm__dynamic has-zci is-hidden diy" id="duckbar_new">
+							<span id="duckbar_dynamic_sep" class="zcm__sep--h sep--before"></span>
+							<li class="zcm__item"><a data-zci-link="meanings" class="zcm__link js-zci-link js-zci-link--meanings" href="javascript:;">联想</a></li>
+	                    </ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="header_spaces"></div>
+				<div id="vertical_wrapper" class="verticals">
+		</div>
+		<div id="web_content_wrapper" class="content-wrap">
+			<div class="serp__top-right js-serp-top-right">
+			</div>
+			<div class="serp__bottom-right js-serp-bottom-right">
+				<div class="js-feedback-btn-wrap">
+					<div class="btn feedback-btn">
+						<a href="https://www.baidu.com/s?wd=python" target="_blank" class="feedback-btn__send js-feedback-start">百度搜索</a>
+						<div class="feedback-btn__icon-wrap is-hidden js-feedback-icon-wrap">
+							<a href="javascript:;" class="feedback-btn__icon ddgsi feedback-btn__icon--love js-feedback-love"></a><a href="javascript:;" class="feedback-btn__icon ddgsi feedback-btn__icon--nolove js-feedback-nolove"></a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="cw">
+				<div id="links_wrapper" class="serp__results js-serp-results">
+					<div class="results--main">
+					<div class="search-filters-wrap">
+						<div class="js-search-filters search-filters">
+							<div id="chinese-only" class="dropdown dropdown--region is-active has-inactive-region">
+								<div class="dropdown__switch switch js-region-filter-switch">
+									<span class="switch__knob"></span>
+								</div>
+								<a class="dropdown__button dropdown__button js-dropdown-button">中文</a>
+							</div>
+							<div class="resultCounter">约 453,000,000 条结果<nobr>（0.37 秒）&nbsp;</nobr></div>						</div>
+                    </div>
+<style>
+	.in_result_banner {
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+		width: 106px;
+		height: 65px;
+		margin: 2px 6px 2px 0px;
+		float: left;
+		border-radius: 4px;
+		line-height: 36px;
+		overflow: hidden;
+		text-align: center;
+	}
+	.in_result_banner img{
+		border-radius: 4px;
+		display: inline;
+	}
+	.resultCounter{
+		color: #999;
+		float: right;
+		padding: 5px 0px 15px 10px;
+	}
+	.userback-button-container .userback-button[wstyle="circle"]{
+		bottom: 50px !important;
+	}
+	#header_wrapper{
+		position: fixed;
+		top: 0;
+		left: 0;
+		width: 100%;
+	}
+	#1web_content_wrapper{
+		margin-top: 101px;
+	}
+	#header_spaces {
+		height: 101px;
+	}
+	.blur_class {
+		background-position: 50%;
+		background-repeat: no-repeat;
+		background-size: cover;
+		height: 100%;
+		width: 100%;
+		position: absolute;
+		z-index: 0;
+		-webkit-filter: blur(50px);
+		filter: blur(50px);
+		-webkit-transform: scale(1.25);
+		transform: scale(1.25);
+		opacity: .5;
+	}
+	.b_class {
+/*		-webkit-backdrop-filter: saturate(180%) blur(20px);*/
+/*		backdrop-filter: saturate(180%) blur(20px);*/
+/*		background: rgba(250,250,250,0.8);*/
+		background: rgba(250,250,250,0.95);
+	}
+</style>
+																
+					<div id="links" class="results js-results">
+                        						<div id="r-129.86" class="result results_links_deep highlight_d result--url-above-snippet" data-domain="www.python.org" data-hostname="www.python.org" data-nir="1">
+							<div class="result__body links_main links_deep">
+								<h2 class="result__title"><a class="result__a" rel="noopener origin" href="/rd/iXt01fYchYFMSnWupL7rVFyoBrgrJ8wyJeZEeFJPZIw%3D"  target="_blank">Welcome to <em>Python</em>.org</a></h2>
+								<div class="result__extras js-result-extras">
+									<div class="result__extras__url">
+										<span class="result__icon "><a rel="noopener origin" href="?q=python+site:www.python.org" title="只看 www.python.org" class="js-result-extras-site_search"><img class="result__icon__img lazyload-icons lazyload " data-src="/favicon/www.python.org.ico" height="16" width="16" title="只看 www.python.org" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="></a></span><a href="/rd/iXt01fYchYFMSnWupL7rVFyoBrgrJ8wyJeZEeFJPZIw%3D" rel="noopener origin" target="_blank" class="result__url js-result-extras-url"><span class="result__url__domain">https://www.<b>python</b>.org</span><span class="result__url__full"></span></a>
+									</div>
+								</div>
+								<div class="result__snippet js-result-snippet">
+																<div class="in_result_banner">
+									<img class="lazyload" src="https://rmt.dogedoge.com/rmt/T-wRuWdLHQDV50Bvs30LBfvbDRoaXHxbiZ1CXFrsMnEPMz94ccOmx8z5xE?w=212&h=130">
+								</div>
+								<em>Python</em> knows the usual control flow statements that other languages speak — if, for, while and range — with some of its own twists, of course. More control flow tools in <em>Python</em> 3. <em>Python</em> is a programming language that lets you work quickly and integrate systems more effectively.-~								</div>
+																<!--  -->
+							</div>
+						</div>
+												<div id="r-118.6" class="result results_links_deep highlight_d result--url-above-snippet" data-domain="docs.python.org" data-hostname="docs.python.org" data-nir="1">
+							<div class="result__body links_main links_deep">
+								<h2 class="result__title"><a class="result__a" rel="noopener origin" href="/rd/UNplaTvgzR4sOPMvud8iraqeORwdUqDNrYJE13JPUtJeZrQZhTOW8m0Dl41IxDzq2BYRN18RbSgFC%2FTp6o6dsA%3D%3D"  target="_blank"><em>Python</em> 教程— <em>Python</em> 3.8.5 文档</a></h2>
+								<div class="result__extras js-result-extras">
+									<div class="result__extras__url">
+										<span class="result__icon "><a rel="noopener origin" href="?q=python+site:docs.python.org" title="只看 docs.python.org" class="js-result-extras-site_search"><img class="result__icon__img lazyload-icons lazyload " data-src="/favicon/docs.python.org.ico" height="16" width="16" title="只看 docs.python.org" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="></a></span><a href="/rd/UNplaTvgzR4sOPMvud8iraqeORwdUqDNrYJE13JPUtJeZrQZhTOW8m0Dl41IxDzq2BYRN18RbSgFC%2FTp6o6dsA%3D%3D" rel="noopener origin" target="_blank" class="result__url js-result-extras-url"><span class="result__url__domain">docs.python.org</span><span class="result__url__full"></span></a>
+									</div>
+								</div>
+								<div class="result__snippet js-result-snippet">
+								2 天前 <b>...</b> <em>Python</em> 教程¶ <em>Python</em> 是一种易于学习又功能强大的编程语言。它提供了高效的高级数据结构，还能简单有效地面向对象编程。<em>Python</em> 优雅的语法和动态类型，以及解释型语言的本质，使它成为多数平台上写脚本和快速开发应用的理想语言。-~								</div>
+																<!--  -->
+							</div>
+						</div>
+												<div id="r-114.58" class="result results_links_deep highlight_d result--url-above-snippet" data-domain="www.runoob.com" data-hostname="www.runoob.com" data-nir="1">
+							<div class="result__body links_main links_deep">
+								<h2 class="result__title"><a class="result__a" rel="noopener origin" href="/rd/fy3x%2FOKyTVxhuR7I1f8t6KIdTEjhZJZ4RjzloAYwUTk34bXwJlqLenXrCgoeYkX5aOdaqS44q4mxbXxL2OgCAw%3D%3D"  target="_blank"><em>Python</em> 基础教程 - 菜鸟教程</a></h2>
+								<div class="result__extras js-result-extras">
+									<div class="result__extras__url">
+										<span class="result__icon "><a rel="noopener origin" href="?q=python+site:www.runoob.com" title="只看 www.runoob.com" class="js-result-extras-site_search"><img class="result__icon__img lazyload-icons lazyload " data-src="/favicon/www.runoob.com.ico" height="16" width="16" title="只看 www.runoob.com" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="></a></span><a href="/rd/fy3x%2FOKyTVxhuR7I1f8t6KIdTEjhZJZ4RjzloAYwUTk34bXwJlqLenXrCgoeYkX5aOdaqS44q4mxbXxL2OgCAw%3D%3D" rel="noopener origin" target="_blank" class="result__url js-result-extras-url"><span class="result__url__domain">www.runoob.com</span><span class="result__url__full"></span></a>
+									</div>
+								</div>
+								<div class="result__snippet js-result-snippet">
+																<div class="in_result_banner">
+									<img class="lazyload" src="https://rmt.dogedoge.com/rmt/QNK-s9BWa9l-8yXW5UB0_1WrSLkO01N8QFuJSdFOatDA4kfKZb15vyKrY?w=212&h=130">
+								</div>
+								<em>Python</em> 基础教程 <em>Python</em> 是一种解释型、面向对象、动态数据类型的高级程序设计语言。 <em>Python</em> 由 Guido van Rossum 于 1989 年底发明，第一个公开发行版发行于 1991 年。 像 Perl 语言一样, <em>Python</em> 源代码同样遵循 GPL(GNU General Public License) 协议。-~								</div>
+																<!--  -->
+							</div>
+						</div>
+												<div id="r-109.04" class="result results_links_deep highlight_d result--url-above-snippet" data-domain="www.liaoxuefeng.com" data-hostname="www.liaoxuefeng.com" data-nir="1">
+							<div class="result__body links_main links_deep">
+								<h2 class="result__title"><a class="result__a" rel="noopener origin" href="/rd/I%2BP%2Fx2ib0HxPM04h8Gttkd8TCeoGfM6xkqNt7LMsb6mu2%2FSBt0FDzNoDJYSpE%2BilmqAdSJAvbBbEb6B%2BmQkqRw%3D%3D"  target="_blank"><em>Python</em>教程 - 廖雪峰的官方网站</a></h2>
+								<div class="result__extras js-result-extras">
+									<div class="result__extras__url">
+										<span class="result__icon "><a rel="noopener origin" href="?q=python+site:www.liaoxuefeng.com" title="只看 www.liaoxuefeng.com" class="js-result-extras-site_search"><img class="result__icon__img lazyload-icons lazyload " data-src="/favicon/www.liaoxuefeng.com.ico" height="16" width="16" title="只看 www.liaoxuefeng.com" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="></a></span><a href="/rd/I%2BP%2Fx2ib0HxPM04h8Gttkd8TCeoGfM6xkqNt7LMsb6mu2%2FSBt0FDzNoDJYSpE%2BilmqAdSJAvbBbEb6B%2BmQkqRw%3D%3D" rel="noopener origin" target="_blank" class="result__url js-result-extras-url"><span class="result__url__domain">www.liaoxuefeng.com</span><span class="result__url__full"></span></a>
+									</div>
+								</div>
+								<div class="result__snippet js-result-snippet">
+																<div class="in_result_banner">
+									<img class="lazyload" src="https://rmt.dogedoge.com/rmt/QGdAK3Fd8pLjbyJ5RSpA0mBCGi5Tg9v9Nm_RewCAx39ltZcWKNOKfcwmg?w=212&h=130">
+								</div>
+								这是小白的<em>Python</em>新手教程，具有如下特点： 中文，免费，零起点，完整示例，基于最新的<em>Python</em> 3版本。 <em>Python</em>是一种计算机程序设计语言。你可能已经听说过很多种流行的编程语言，比如非常难学的C语言，非常流行的Java语言，适合初学者的Basic语言，适合 ...-~								</div>
+																<!--  -->
+							</div>
+						</div>
+												<div id="r-107.9" class="result results_links_deep highlight_d result--url-above-snippet" data-domain="www.python.org" data-hostname="www.python.org" data-nir="1">
+							<div class="result__body links_main links_deep">
+								<h2 class="result__title"><a class="result__a" rel="noopener origin" href="/rd/iXt01fYchYFMSnWupL7rVPnfytitgsfj8bnPtQOx32QifCAFe92ipnVVsZWZKCQw"  target="_blank">Download <em><em>Python</em></em> | <em><em>Python</em></em>.org</a></h2>
+								<div class="result__extras js-result-extras">
+									<div class="result__extras__url">
+										<span class="result__icon "><a rel="noopener origin" href="?q=python+site:www.python.org" title="只看 www.python.org" class="js-result-extras-site_search"><img class="result__icon__img lazyload-icons lazyload " data-src="/favicon/www.python.org.ico" height="16" width="16" title="只看 www.python.org" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="></a></span><a href="/rd/iXt01fYchYFMSnWupL7rVPnfytitgsfj8bnPtQOx32QifCAFe92ipnVVsZWZKCQw" rel="noopener origin" target="_blank" class="result__url js-result-extras-url"><span class="result__url__domain">https://www.<b>python</b>.org/downloads</span><span class="result__url__full"></span></a>
+									</div>
+								</div>
+								<div class="result__snippet js-result-snippet">
+								All <em>Python</em> releases are Open Source. Historically, most, but not all, <em>Python</em> releases have also been GPL-compatible. The Licenses page details GPL-compatibility and Terms and Conditions. Read more. Sources. For most Unix systems, you must download and compile the source code. The same source code archive can also be used to build the Windows ...-								</div>
+																<!--  -->
+							</div>
+						</div>
+												<div id="r-107.16" class="result results_links_deep highlight_d result--url-above-snippet" data-domain="baike.baidu.com" data-hostname="baike.baidu.com" data-nir="1">
+							<div class="result__body links_main links_deep">
+								<h2 class="result__title"><a class="result__a" rel="noopener origin" href="/rd/xjTXXXa3mZ58%2BjdLENqba75ixjHwH7Pcsl1bW1xJqzNVi51oEE96SoTDgNfDn2Ig"  target="_blank"><em><em>Python</em></em>（计算机程序设计语言）_百度百科</a></h2>
+								<div class="result__extras js-result-extras">
+									<div class="result__extras__url">
+										<span class="result__icon "><a rel="noopener origin" href="?q=python+site:baike.baidu.com" title="只看 baike.baidu.com" class="js-result-extras-site_search"><img class="result__icon__img lazyload-icons lazyload " data-src="/favicon/baike.baidu.com.ico" height="16" width="16" title="只看 baike.baidu.com" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="></a></span><a href="/rd/xjTXXXa3mZ58%2BjdLENqba75ixjHwH7Pcsl1bW1xJqzNVi51oEE96SoTDgNfDn2Ig" rel="noopener origin" target="_blank" class="result__url js-result-extras-url"><span class="result__url__domain">baike.baidu.com</span><span class="result__url__full"></span></a>
+									</div>
+								</div>
+								<div class="result__snippet js-result-snippet">
+								2020年4月28日 <b>...</b> <em>Python</em>是一种跨平台的计算机程序设计语言。 是一个高层次的结合了解释性、编译性、互动性和面向对象的脚本语言。最初被设计用于编写自动化脚本(shell)，随着版本的不断更新和语言新功能的添加，越多被用于独立的、大型项目的开发。-								</div>
+																<!--  -->
+							</div>
+						</div>
+												<div id="r-106.52" class="result results_links_deep highlight_d result--url-above-snippet" data-domain="docs.python.org" data-hostname="docs.python.org" data-nir="1">
+							<div class="result__body links_main links_deep">
+								<h2 class="result__title"><a class="result__a" rel="noopener origin" href="/rd/UNplaTvgzR4sOPMvud8irVb0aUJzjqYCIiGC06UcFD4%3D"  target="_blank"><em>Python</em> 3.8.5 文档</a></h2>
+								<div class="result__extras js-result-extras">
+									<div class="result__extras__url">
+										<span class="result__icon "><a rel="noopener origin" href="?q=python+site:docs.python.org" title="只看 docs.python.org" class="js-result-extras-site_search"><img class="result__icon__img lazyload-icons lazyload " data-src="/favicon/docs.python.org.ico" height="16" width="16" title="只看 docs.python.org" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="></a></span><a href="/rd/UNplaTvgzR4sOPMvud8irVb0aUJzjqYCIiGC06UcFD4%3D" rel="noopener origin" target="_blank" class="result__url js-result-extras-url"><span class="result__url__domain">https://docs.<b>python</b>.org/zh-cn/</span><span class="result__url__full"></span></a>
+									</div>
+								</div>
+								<div class="result__snippet js-result-snippet">
+								从官方的PyPI 或者其他来源安装模块. 分发<em>Python</em> 模块 发布模块，供其他人安装. 
+扩展和嵌入 给C/C++ 程序员的教程. <em>Python</em>/C API 接口 给C/C++ 程序员的参考&nbsp;...								</div>
+																<!--  -->
+							</div>
+						</div>
+												<div id="r-105.4" class="result results_links_deep highlight_d result--url-above-snippet" data-domain="baike.baidu.com" data-hostname="baike.baidu.com" data-nir="1">
+							<div class="result__body links_main links_deep">
+								<h2 class="result__title"><a class="result__a" rel="noopener origin" href="/rd/xjTXXXa3mZ58%2BjdLENqba75ixjHwH7Pcsl1bW1xJqzOkSLobIGfWVnGyb%2BoVO5UR"  target="_blank"><em>Python</em>（计算机程序设计语言）_百度百科</a></h2>
+								<div class="result__extras js-result-extras">
+									<div class="result__extras__url">
+										<span class="result__icon "><a rel="noopener origin" href="?q=python+site:baike.baidu.com" title="只看 baike.baidu.com" class="js-result-extras-site_search"><img class="result__icon__img lazyload-icons lazyload " data-src="/favicon/baike.baidu.com.ico" height="16" width="16" title="只看 baike.baidu.com" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="></a></span><a href="/rd/xjTXXXa3mZ58%2BjdLENqba75ixjHwH7Pcsl1bW1xJqzOkSLobIGfWVnGyb%2BoVO5UR" rel="noopener origin" target="_blank" class="result__url js-result-extras-url"><span class="result__url__domain">https://baike.baidu.com/item/<b>Python</b></span><span class="result__url__full"></span></a>
+									</div>
+								</div>
+								<div class="result__snippet js-result-snippet">
+								<em>Python</em>是一种跨平台的计算机程序设计语言。 是一个高层次的结合了解释性、编译
+性、互动性和面向对象的脚本语言。最初被设计用于编写自动化脚本(shell)，随着&nbsp;...								</div>
+																<!--  -->
+							</div>
+						</div>
+												<div id="r-104.6" class="result results_links_deep highlight_d result--url-above-snippet" data-domain="c.biancheng.net" data-hostname="c.biancheng.net" data-nir="1">
+							<div class="result__body links_main links_deep">
+								<h2 class="result__title"><a class="result__a" rel="noopener origin" href="/rd/aPbmpB63QcMTbkYdNwrOkv3trJQRs4Qk3RlVhge%2F7MQ%3D"  target="_blank"><em>Python</em>基础教程，<em>Python</em>入门教程（非常详细）</a></h2>
+								<div class="result__extras js-result-extras">
+									<div class="result__extras__url">
+										<span class="result__icon "><a rel="noopener origin" href="?q=python+site:c.biancheng.net" title="只看 c.biancheng.net" class="js-result-extras-site_search"><img class="result__icon__img lazyload-icons lazyload " data-src="/favicon/c.biancheng.net.ico" height="16" width="16" title="只看 c.biancheng.net" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="></a></span><a href="/rd/aPbmpB63QcMTbkYdNwrOkv3trJQRs4Qk3RlVhge%2F7MQ%3D" rel="noopener origin" target="_blank" class="result__url js-result-extras-url"><span class="result__url__domain">c.biancheng.net</span><span class="result__url__full"></span></a>
+									</div>
+								</div>
+								<div class="result__snippet js-result-snippet">
+																<div class="in_result_banner">
+									<img class="lazyload" src="https://rmt.dogedoge.com/rmt/SF6WPGMF7t8deVTq2-LEVR4XXRas6vlZQ_yA5vnsW2x_LggkOpJ2p-JfMG?w=212&h=130">
+								</div>
+								2020年8月14日 <b>...</b> <em>Python</em> 是一门开源免费、通用型的脚本编程语言，它上手简单，功能强大，坚持「极简主义」。 <em>Python</em> 类库（模块）极其丰富，这使得 <em>Python</em> 几乎无所不能，不管是传统的 Web 开发、PC 软件开发、Linux 运维，还是当下火热的机器学习、大数据分析、网络爬虫，<em>Python</em> 都能胜任。-~								</div>
+																<!--  -->
+							</div>
+						</div>
+												<div id="r-101.8" class="result results_links_deep highlight_d result--url-above-snippet" data-domain="docs.python.org" data-hostname="docs.python.org" data-nir="1">
+							<div class="result__body links_main links_deep">
+								<h2 class="result__title"><a class="result__a" rel="noopener origin" href="/rd/UNplaTvgzR4sOPMvud8iraqeORwdUqDNrYJE13JPUtL%2BYAHSmnvzBkL5TgHrI1FwaOdaqS44q4mxbXxL2OgCAw%3D%3D"  target="_blank"><em>Python</em> 标准库— <em>Python</em> 3.8.5 文档</a></h2>
+								<div class="result__extras js-result-extras">
+									<div class="result__extras__url">
+										<span class="result__icon "><a rel="noopener origin" href="?q=python+site:docs.python.org" title="只看 docs.python.org" class="js-result-extras-site_search"><img class="result__icon__img lazyload-icons lazyload " data-src="/favicon/docs.python.org.ico" height="16" width="16" title="只看 docs.python.org" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="></a></span><a href="/rd/UNplaTvgzR4sOPMvud8iraqeORwdUqDNrYJE13JPUtL%2BYAHSmnvzBkL5TgHrI1FwaOdaqS44q4mxbXxL2OgCAw%3D%3D" rel="noopener origin" target="_blank" class="result__url js-result-extras-url"><span class="result__url__domain">https://docs.<b>python</b>.org/zh-cn/3/library/index.html</span><span class="result__url__full"></span></a>
+									</div>
+								</div>
+								<div class="result__snippet js-result-snippet">
+								<em>Python</em> 标准库非常庞大，所提供的组件涉及范围十分广泛，正如以下内容目录所
+显示的。这个库包含了多个内置模块(以C 编写)，<em>Python</em> 程序员必须依靠它们来
+实现&nbsp;...								</div>
+																<!--  -->
+							</div>
+						</div>
+												<div id="r-95.96" class="result results_links_deep highlight_d result--url-above-snippet" data-domain="www.runoob.com" data-hostname="www.runoob.com" data-nir="1">
+							<div class="result__body links_main links_deep">
+								<h2 class="result__title"><a class="result__a" rel="noopener origin" href="/rd/fy3x%2FOKyTVxhuR7I1f8t6ONNxDPEWgZF3Zxvc2iyaysQlHS66CgJM%2BkT3hTwTf1Ed4CtjXFH9AFD%2F1C2CgHQgA%3D%3D"  target="_blank"><em>Python</em>3 教程 | 菜鸟教程 - RUNOOB.COM</a></h2>
+								<div class="result__extras js-result-extras">
+									<div class="result__extras__url">
+										<span class="result__icon "><a rel="noopener origin" href="?q=python+site:www.runoob.com" title="只看 www.runoob.com" class="js-result-extras-site_search"><img class="result__icon__img lazyload-icons lazyload " data-src="/favicon/www.runoob.com.ico" height="16" width="16" title="只看 www.runoob.com" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="></a></span><a href="/rd/fy3x%2FOKyTVxhuR7I1f8t6ONNxDPEWgZF3Zxvc2iyaysQlHS66CgJM%2BkT3hTwTf1Ed4CtjXFH9AFD%2F1C2CgHQgA%3D%3D" rel="noopener origin" target="_blank" class="result__url js-result-extras-url"><span class="result__url__domain">www.runoob.com</span><span class="result__url__full"></span></a>
+									</div>
+								</div>
+								<div class="result__snippet js-result-snippet">
+								<em>Python</em> 3 教程 <em>Python</em> 的 3.0 版本，常被称为 <em>Python</em> 3000，或简称 Py3k。相对于 <em>Python</em> 的早期版本，这是一个较大的升级。为了不带入过多的累赘，<em>Python</em> 3.0 在设计的时候没有考虑向下兼容。 <em>Python</em> 介绍及安装教程我们在<em>Python</em> 2.X 版本的教程中已有 ...-								</div>
+																<!--  -->
+							</div>
+						</div>
+												<div id="r-95.64" class="result results_links_deep highlight_d result--url-above-snippet" data-domain="github.com" data-hostname="github.com" data-nir="1">
+							<div class="result__body links_main links_deep">
+								<h2 class="result__title"><a class="result__a" rel="noopener origin" href="/rd/d%2B5qv24iKs8wq8SEJt8Huf4IzodglvXUGTY9LL3HDnrPSs4pMdRcIZFExNdZ%2F7Wa"  target="_blank">jackfrued/Python-100-Days: Python - 100天从新手到大师 - GitHub</a></h2>
+								<div class="result__extras js-result-extras">
+									<div class="result__extras__url">
+										<span class="result__icon "><a rel="noopener origin" href="?q=python+site:github.com" title="只看 github.com" class="js-result-extras-site_search"><img class="result__icon__img lazyload-icons lazyload " data-src="/favicon/github.com.ico" height="16" width="16" title="只看 github.com" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="></a></span><a href="/rd/d%2B5qv24iKs8wq8SEJt8Huf4IzodglvXUGTY9LL3HDnrPSs4pMdRcIZFExNdZ%2F7Wa" rel="noopener origin" target="_blank" class="result__url js-result-extras-url"><span class="result__url__domain">https://github.com/jackfrued/<b>Python</b>-100-Days</span><span class="result__url__full"></span></a>
+									</div>
+								</div>
+								<div class="result__snippet js-result-snippet">
+																<div class="in_result_banner">
+									<img class="lazyload" src="https://rmt.dogedoge.com/rmt/SsE1DBhkKhK8NpjOIWC_DbKO4icgySEoqT4-9odkV_LgAvRE9dd7aufTgh?w=212&h=130">
+								</div>
+								<em>Python</em>应用领域和就业形势分析. 简单的说，<em>Python</em>是一个“优雅”、“明确”、“简单”
+的编程语言。 学习曲线低，&nbsp;...								</div>
+																<!--  -->
+							</div>
+						</div>
+												<div id="r-89.7" class="result results_links_deep highlight_d result--url-above-snippet" data-domain="www.zhihu.com" data-hostname="www.zhihu.com" data-nir="1">
+							<div class="result__body links_main links_deep">
+								<h2 class="result__title"><a class="result__a" rel="noopener origin" href="/rd/cKfHsNh7AUdJSUGqgHeQmCnpH0jV2PI4Re8HEJCGXhuKRqi%2FMk%2FznAXd50kxMsTd"  target="_blank"><em><em>Python</em></em> - 知乎</a></h2>
+								<div class="result__extras js-result-extras">
+									<div class="result__extras__url">
+										<span class="result__icon "><a rel="noopener origin" href="?q=python+site:www.zhihu.com" title="只看 www.zhihu.com" class="js-result-extras-site_search"><img class="result__icon__img lazyload-icons lazyload " data-src="/favicon/www.zhihu.com.ico" height="16" width="16" title="只看 www.zhihu.com" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="></a></span><a href="/rd/cKfHsNh7AUdJSUGqgHeQmCnpH0jV2PI4Re8HEJCGXhuKRqi%2FMk%2FznAXd50kxMsTd" rel="noopener origin" target="_blank" class="result__url js-result-extras-url"><span class="result__url__domain">www.zhihu.com</span><span class="result__url__full"></span></a>
+									</div>
+								</div>
+								<div class="result__snippet js-result-snippet">
+								2020年8月15日 <b>...</b> <em>Python</em>诞生之初就被誉为最容易上手的编程语言。<em>Python</em>语言对新手友好，易上手，功能强大，高效灵活。进入火热的AI人工智能时代之后，它愈发受到欢迎，几乎取代Java成为编程界的头牌语言。-								</div>
+																<!--  -->
+							</div>
+						</div>
+												<div id="r-89.2" class="result results_links_deep highlight_d result--url-above-snippet" data-domain="python3-cookbook.readthedocs.io" data-hostname="python3-cookbook.readthedocs.io" data-nir="1">
+							<div class="result__body links_main links_deep">
+								<h2 class="result__title"><a class="result__a" rel="noopener origin" href="/rd/7H%2BbzHaTP7Hw4ciH6Vwnx%2Bog3%2BPtknmQOJtJmirC%2BwHu3e30W6G9S91OGRA1F%2B6lqIs71VuExIJ11Bg5AFCa9g%3D%3D"  target="_blank"><em>Python</em> Cookbook 3rd Edition Documentation — python3-cookbook ...</a></h2>
+								<div class="result__extras js-result-extras">
+									<div class="result__extras__url">
+										<span class="result__icon "><a rel="noopener origin" href="?q=python+site:python3-cookbook.readthedocs.io" title="只看 python3-cookbook.readthedocs.io" class="js-result-extras-site_search"><img class="result__icon__img lazyload-icons lazyload " data-src="/favicon/python3-cookbook.readthedocs.io.ico" height="16" width="16" title="只看 python3-cookbook.readthedocs.io" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="></a></span><a href="/rd/7H%2BbzHaTP7Hw4ciH6Vwnx%2Bog3%2BPtknmQOJtJmirC%2BwHu3e30W6G9S91OGRA1F%2B6lqIs71VuExIJ11Bg5AFCa9g%3D%3D" rel="noopener origin" target="_blank" class="result__url js-result-extras-url"><span class="result__url__domain">https://<b>python</b>3-cookbook.readthedocs.io/zh_CN/latest/</span><span class="result__url__full"></span></a>
+									</div>
+								</div>
+								<div class="result__snippet js-result-snippet">
+								<em>Python</em> Cookbook 3rd Edition Documentation¶. Contents: Copyright &middot; 前言 &middot; 项目
+主页 &middot; 译者的话 &middot; 作者的话 &middot; 这本书适合谁 &middot; 这本书不适合谁 &middot; 在线示例代码 &middot; 使用&nbsp;...								</div>
+																<!--  -->
+							</div>
+						</div>
+												<div id="r-87.3" class="result results_links_deep highlight_d result--url-above-snippet" data-domain="www.zhihu.com" data-hostname="www.zhihu.com" data-nir="1">
+							<div class="result__body links_main links_deep">
+								<h2 class="result__title"><a class="result__a" rel="noopener origin" href="/rd/cKfHsNh7AUdJSUGqgHeQmHpjkTP%2FiJiXIzGhWHBGa8TFNuxZ%2FvDZ1m1%2F461HyeRr"  target="_blank">你是如何自学 <em><em>Python</em></em> 的？ - 知乎</a></h2>
+								<div class="result__extras js-result-extras">
+									<div class="result__extras__url">
+										<span class="result__icon "><a rel="noopener origin" href="?q=python+site:www.zhihu.com" title="只看 www.zhihu.com" class="js-result-extras-site_search"><img class="result__icon__img lazyload-icons lazyload " data-src="/favicon/www.zhihu.com.ico" height="16" width="16" title="只看 www.zhihu.com" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="></a></span><a href="/rd/cKfHsNh7AUdJSUGqgHeQmHpjkTP%2FiJiXIzGhWHBGa8TFNuxZ%2FvDZ1m1%2F461HyeRr" rel="noopener origin" target="_blank" class="result__url js-result-extras-url"><span class="result__url__domain">www.zhihu.com</span><span class="result__url__full"></span></a>
+									</div>
+								</div>
+								<div class="result__snippet js-result-snippet">
+								很多金融巨头，用<em>Python</em>进行数据分析。引用大神Kirat的话说，“它正在快速代替主流金融机构中使用的工具和语言，并成为事实上的标准”。我花了1个月左右时间，一个字一个字啃完。同时边敲代码。3、科学计算方向 建议看《<em>python</em>_sci用<em>python</em>进行科学-								</div>
+																<!--  -->
+							</div>
+						</div>
+												<div class="result result--more" style="float:right; width:150px; display:inline-block;" id="rld-2">
+							<a href="?q=python&amp;p=1" class="result--more__btn btn btn--full">下一页 &gt;&gt;</a>
+						</div>
+											</div>
+				</div>
+				<div class="results--sidebar js-results-sidebar">
+					<div class="sidebar-modules js-sidebar-modules">
+					</div>
+					<div class="js-sidebar-ads">
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<script type="text/javascript">
+	$(document).ready(function(){
+			$('#search_form_input').on('input propertychange', function() {
+				do_sugg(this);
+			});
+			$('#search_form_input').focus(function () {
+				$('#search_form').addClass("search--focus");
+				$('html').addClass("has-search-focus");
+				do_sugg(this);
+			});
+			$('#search_form_input_clear').click(function () {
+				$('#search_form_input').val('').focus();
+				$('#search_form').removeClass("has-text");
+				$("#search__autocomplete").hide();
+			});
+			$(document).mouseup(function(e){
+				var _con = $('#search_form_input,#search__autocomplete,#chinese-only');   // 设置目标区域
+				if(!_con.is(e.target) && _con.has(e.target).length === 0){ // Mark 1
+					$("#search__autocomplete").hide();
+				}
+			});
+			$("#search_form").hover(function(){
+				$(this).addClass("search--hover");
+			},function(){
+				$(this).removeClass("search--hover");
+			});
+			$('#chinese-only').click(function () {
+				if ($(this).children(".dropdown__switch").hasClass("is-on")) {
+					$(this).addClass('has-inactive-region');
+					$(this).children(".dropdown__switch").removeClass('is-on');
+					setTimeout(function(){
+						$('#input_lang').remove();
+						var lang_input=$('<input/>', {
+							id: 'input_lang',
+							type: 'hidden',
+							name: 'lang',
+							value: 'auto'
+						});
+						$("#search_form_input").after(lang_input);
+						document.getElementById('search_form').submit();
+					},200);
+//					window.location.href = window.location.href+'&lang=cn';
+				} else {
+					$(this).removeClass('has-inactive-region');
+					$(this).children(".dropdown__switch").addClass('is-on');
+					setTimeout(function(){
+						var lang_input=$('<input/>', {
+							id: 'input_lang',
+							type: 'hidden',
+							name: 'lang',
+							value: 'cn'
+						});
+						$("#search_form_input").after(lang_input);
+						document.getElementById('search_form').submit();
+					},200);
+				}
+			});
+			$(document).keydown(function (event) {
+				if($('#search__autocomplete').is(':visible')){
+					keyDown(event);
+				}
+			});
+			if ($("span#user_ip").length>0) {
+				$.ajax({cache:true,url:"https://myip.ipip.net",async:true,success:function(result){
+					$('span#user_ip').html(result.replace('当前 IP：','').replace(' 来自于：', ' ( ')+')');
+				}});
+			}
+			if ($("span#check_ip").length>0) {
+				var ip_for_check = $('span#check_ip').attr('data-ip');
+				$.ajax({cache:true,url:"/ir/ip/"+ip_for_check,async:true,success:function(result){
+					$('span#check_ip').html(ip_for_check+' '+result);
+				}});
+			}
+			if ($(".forecast-wrapper").length>0) {
+				$('.forecast-wrapper').on("click", "div.module__items-item", function() {
+					var selecteddate = $(this).attr("day");
+					$(".module__items-item").each(function(){
+						$(this).removeClass("module__items-item--selected");
+					});
+					$(this).addClass("module__items-item--selected");
+					$(".forecast-wrapper").find("[ir=weather]").each(function() {
+						var this_date = $(this).attr("date");
+						if(this_date==selecteddate) {
+							$(this).removeClass("is-hidden");
+						} else {
+							$(this).addClass("is-hidden");
+						}
+					});
+					var ctx = $("canvas#chart."+selecteddate).get(0).getContext("2d");
+					var tmps = $(this).attr("tmps");
+					getCharts(ctx, tmps.split(', '));
+				});
+			}
+			if ($(".forecast-wrapper").length>0) {
+				//var ip_for_check = $('span#check_ip').attr('data-ip');
+				var tq_point = '';
+				$.ajax({cache:true,url:"/weather/"+tq_point,async:true,success:function(result){
+					$('.forecast-wrapper').html(result);
+					var ctx = $("canvas#chart").get(0).getContext("2d");
+					var tmps = $(".module__items-item--selected").attr("tmps");
+					getCharts(ctx, tmps.split(', '));
+				}});
+			}
+			lazyload();
+	});
+	var header_spaces_css = {
+		height: $('#header_wrapper').outerHeight(true)
+	};
+	$("#header_spaces").css(header_spaces_css);
+	function do_sugg(obj){
+		var count = $(obj).val().length;
+		var auto_div = $("#search__autocomplete");
+		if (count>0) {
+			$('#search_form').addClass("has-text");
+			$.ajax({cache:true,url:"/sugg/"+$(obj).val(),async:true,success:function(result){
+				var tempDiv = document.createElement("DIV");
+				var newDIV = $(tempDiv).addClass('acp-wrap').html(result);
+				var fake_acp = document.createElement("DIV");
+				var fake_acp = $(fake_acp).addClass('acp').attr('tabindex','0').text($(obj).val());
+				fake_acp.hide();
+				auto_div.html(newDIV);
+				newDIV.prepend(fake_acp);
+				auto_div.show();
+				auto_div.find('.acp').on({
+					mouseenter: function () {
+						$("div.acp").removeClass('acp--highlight');
+						$(this).addClass("acp--highlight");
+						$(this).click(function () {
+							$('#search_form_input').val($(this).text());
+							auto_div.hide();
+							document.getElementById('search_form').submit();
+						})
+					},
+					mouseleave: function () {
+						$("div.acp").removeClass('acp--highlight');
+					}
+				});
+			}});
+			//$('#error_homepage').html("已输入 "+ count +" 个字。").show();
+		} else {
+			$('#search_form').removeClass("has-text");
+			auto_div.hide();
+			//$('#error_homepage').html("").hide();
+		}
+	}
+	function getCharts(ctx, datas) {
+		var data = {
+			labels: [65, 59, 80, 81, 56, 55, 40, 45],
+			datasets: [
+				{
+					backgroundColor: '#f3f3f3',
+					borderColor: '#666',
+					borderWidth: 2,
+					data: datas
+				}
+			]
+		};
+		var stackedLine = new Chart(ctx, {
+			type: 'line',
+			data: data,
+			options: {
+				layout: {
+					padding: {
+						top: 8, 
+						bottom: 2
+					}
+				},
+				maintainAspectRatio: false,
+				devicePixelRatio: 3,
+				elements: {point: {radius: 0}
+				},
+				tooltips: {enabled: false},
+				legend: {display: false},
+				scales: {
+					xAxes: [{display: false}],
+					yAxes: [{stacked: false,display: false}]
+				},
+			}
+		});
+	}
+	//方向键控制页面控件焦点移动
+	function keyDown(event) {
+			var suggs = $("div.acp");                  //通过class属性值获取控件组合  
+			var this_sugg = $(".acp.acp--highlight");                  //通过class属性值获取控件组合                                       
+			var focus = document.activeElement;                 //得到处于激活状态的控件
+			var event = window.event || event;                              //获取事件
+			var key = event.keyCode;                                     //得到按下的键盘Ascii码
+			var target_input = $('#search_form_input');                                     //得到按下的键盘Ascii码
+			var this_tabindex = $(this_sugg).attr('tabindex');
+			var this_flag = 0;var last_flag = 0;
+			if (typeof this_tabindex == typeof undefined || this_tabindex == false) {
+				this_flag = 0;
+			} else {
+				this_flag = parseInt(this_tabindex);
+			}
+			var last_tabindex = $(suggs).last().attr('tabindex');
+			if (typeof last_tabindex == typeof undefined || last_tabindex == false) {
+				last_flag = 0;
+			} else {
+				last_flag = parseInt(last_tabindex);
+			}
+			switch (key) {
+				case 38:                //向上键
+					$(suggs).removeClass('acp--highlight');
+					if (this_flag>0 && this_flag<=last_flag) {
+						$(suggs[this_flag-1]).addClass('acp--highlight');
+						if (this_flag>0) {
+							target_input.val($(suggs[this_flag-1]).text());
+						}
+					} else if(this_flag==0) {
+						$(suggs[last_flag]).addClass('acp--highlight');
+						target_input.val($(suggs[last_flag]).text());
+					} else {
+						//hi
+					}
+					event.returnValue=false;
+					break;
+				case 40:                //向下键
+					$(suggs).removeClass('acp--highlight');
+					if (this_flag>=0 && this_flag<last_flag) {
+						$(suggs[this_flag+1]).addClass('acp--highlight');
+						target_input.val($(suggs[this_flag+1]).text());
+					} else {
+						$(suggs[0]).addClass('acp--highlight');
+						target_input.val($(suggs[0]).text());
+					}
+					break;
+				case 13:                //回车键
+				if (this_flag>0) {
+					target_input.val($(suggs[this_flag]).text());
+				}
+					break;
+			}
+		}
+</script>
+<script type="text/javascript">
+	var _paq = window._paq || [];
+	/* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+	_paq.push(['trackPageView']);
+	_paq.push(['enableLinkTracking']);
+	(function() {
+		var u="/data/";
+		_paq.push(['setTrackerUrl', u+'up']);
+		_paq.push(['setSiteId', '1']);
+		var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+		g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'js'; s.parentNode.insertBefore(g,s);
+	})();
+</script>
+<script>
+	window.ga_tid = "UA-120209922-1"; // GA-trackerID of your site.
+	(function() {
+		var dga = document.createElement("script");
+		dga.src = "https://rmt.dogedoge.com/fetch/public/ga.js";
+		var s = document.getElementsByTagName("script")[0];
+		s.parentNode.insertBefore(dga, s);
+	})();
+</script>
+</body>
+</html><!-- r: 0 -->
