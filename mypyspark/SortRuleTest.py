@@ -23,7 +23,7 @@ def is_nulludf(fieldValue, defaultValue):
 spark = SparkSession.builder.appName('test_udf').master('local').getOrCreate()
 
 struct1 = StructType([StructField("name", StringType(), True)])
-df = spark.read.json("D:\\project\\Official-python-study\\mypyspark\\a.json", schema=struct1)
+df = spark.read.json("D:\peoject\python\Official-python-study\mypyspark\mya.json", schema=struct1)
 print(df)
 df.createTempView("table")
 
@@ -31,5 +31,6 @@ df.createTempView("table")
 spark.udf.register("myudf", SortRuleFunction.myFun)
 
 # 使用自定义函数
-spark.sql("select name, myudf('accountName', 'account', 'currencyCode', 'transactionCode', 'transactionAmount','borrowFlage', 'businessCode', '融资', 'accountChinessName') as col_name2 from table ").show()
+spark.sql(
+    "select name, myudf('accountName', 'account', 'currencyCode', 'transactionCode', 'transactionAmount','borrowFlage', 'businessCode', '融资', 'accountChinessName') as col_name2 from table ").show()
 spark.stop()

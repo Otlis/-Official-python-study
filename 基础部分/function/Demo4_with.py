@@ -3,7 +3,7 @@
 
 
 try:
-    with open('a.txt', 'r') as f1:
+    with open('mya.txt', 'r') as f1:
         f1.read()
         # f1.close() don't need to close，'with'  will help us to close the file
 except:
