@@ -1,3 +1,83 @@
+# 爬虫大方向
+
+## 1.urllib
+
+``` shell
+1.urllib.request.urlopen() 模拟浏览器向服务器发送请求
+2.一个类型以及6个方法
+3.get
+4.post
+5.ajax
+6.ajax-post 
+7.复杂的get
+8.error
+9.cookie登陆
+10.handler
+11.代理
+12.cookie库
+```
+
+#### get和post的区别
+
+```
+
+```
+
+
+
+## 2.解析
+
+```shell
+1.正则
+2.xpath
+3.jsonpath
+4.bs4
+```
+
+## 3.selenium
+
+> 如果网站中返回的是js文件，那么urllib是解析不了的。可以使用selenium
+
+```shell
+1.selenium
+2.phantomjs
+3.headless
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # scrapy
 
 ## 一、quick start
