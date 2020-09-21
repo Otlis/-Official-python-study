@@ -126,6 +126,20 @@ ROBOTSTXT_OBEY = False
 			extract_first()     ===>提取的是selector列表中的第一个数据
 ```
 
+#### extract和extract_first的区别？
+
+```
+使用xpath解析得到的是一个seletor对象，需要进一步使用extract()方法拆包，转换为unicode字符串
+
+extract（） 
+	提取seletor对象的值，如果提取不到值，会报错。
+extract_first()
+	提取seletor列表中的第一个值，如果取不到值，会返回一个空值
+	返回第一个解析到的值，如果列表为空，此种方法也不会报错
+```
+
+
+
 ## 三、操作
 
 > 解析后输出到文件
@@ -135,9 +149,23 @@ ROBOTSTXT_OBEY = False
 scrapy crawl qb -o qb.json
 #　输出csv文件
 scrapy crawl qb -o qb.csv
+#　输出xml文件
+scrapy crawl qb -o qb.xml
 ```
 
+## 四、原理
 
+> 由四部分组成
+>
+> spider 、 调度器（schedluer）、下载器（downloader）和管道（pipline） .
+
+```shell
+1. spider向引擎提供一个url
+2. 引擎把url传给调度器，调度器定制请求对象。把定制好的请求对象传给下载器
+3. 下载器根据请求对象从互联网下载数据
+4. 下载的数据再由spider通过xpath解析
+5. 解析完的数据最后由管道保存到文件或者数据库
+```
 
 
 
