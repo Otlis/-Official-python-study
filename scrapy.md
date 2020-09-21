@@ -167,9 +167,42 @@ scrapy crawl qb -o qb.xml
 5. 解析完的数据最后由管道保存到文件或者数据库
 ```
 
+## 五、知识点
 
+> 管道的用法pipeline
 
+```shell
+1. 默认是关闭的，可以再settings文件中打开
 
+2. 在pipeline这个方法中 item是一个一个的数据，比如解析返回一个list,那么item就是list中的一个值
+
+3. 写文件可以重写一个open_spider() 方法，只打开一次数据库连接、文件等
+				  close_spider()
+4. 在setting文件中可以指定多个管道，来达到多线成下载的效果
+# 数字代表优先级，越小优先级越高。1-1000之间
+ITEM_PIPELINES = {
+   'dang.pipelines.DangPipeline': 300, 
+   'dang.pipelines.自定义的类':299 
+}
+```
+
+```python
+# 高效的文件和数据库写入数据，不必频繁的打开连接
+class DangPipeline:
+
+    def open_spider(self,spider):
+        self.file = open('dang.json', 'w', encoding='utf-8')
+
+    def process_item(self, item, spider):
+        # 保存到文件中
+        self.file.write(str(item))
+        # print('oooooooooooooooooooooooooooooooooooooooooooooooo')
+        # print(item)
+        return item
+
+    def close_spider(self,spider):
+        self.file.close()
+```
 
 
 
