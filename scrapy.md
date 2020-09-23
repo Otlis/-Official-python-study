@@ -212,11 +212,50 @@ LOG_FILE='mylog.log'
 ```
 ## 六、post请求
 
+```
+1. 因为是post请求，所以start_urls 和 parse方法都不能用 需要注释掉
+2. 重写start_requests(self): 方法
+```
 
 
 
+```python
+    def start_requests(self):
+        print('----------------------------------------------------------------')
+        data = {
+            'from': 'zh',
+            'to': 'en',
+            'query': '学习',
+            'transtype': 'realtime',
+            'simple_means_flag': '3',
+            'sign': '275626.55195',
+            'token': '68d4ed11037dec8908a979268942b0eb',
+            'domain': 'common'
+        }
+
+        headers = {
+            'cookie': 'xxxxxxxxx'
+        }
+        url = 'https://fanyi.baidu.com/v2transapi?from=zh&to=en'
+        yield scrapy.FormRequest(url=url, formdata=data, callback=self.second_parse, headers=headers)
+
+```
+
+## 七、代理
 
 
+
+```shell
+1. 打开settings文件中的 downloader middlewares
+#DOWNLOADER_MIDDLEWARES = {
+#    'demopost.middlewares.DemopostDownloaderMiddleware': 543,
+#}
+2. 在middlewares.py文件中写代码
+ def process_request(self, request, spider):
+        # Called for each request that goes through the downloader
+        request.meta['proxy']='xxxxxx:8888'
+        return None
+```
 
 
 
