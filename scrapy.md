@@ -203,7 +203,14 @@ class DangPipeline:
     def close_spider(self,spider):
         self.file.close()
 ```
-
+> 日志设置
+```shell
+# 设置日志等级 在settings文件中加上
+LOG_LEVEL='WARNING'
+# 设置日志保存到文件
+LOG_FILE='mylog.log'
+```
+## 六、post请求
 
 
 
